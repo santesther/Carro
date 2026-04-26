@@ -11,7 +11,7 @@ public class Carro {
     }
 
     public Carro() {
-
+        this(Ignicao.DESLIGADO, 0,0);
     }
 
     public Ignicao getIgnicao() {
